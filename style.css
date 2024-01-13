@@ -131,9 +131,30 @@ section div button:hover{
 }
 
 .card img {
-    display: flex;
+    max-width: 100%; 
+    border-radius: 10px; 
 }
 
-.card h5{
+.card h5 {
     color: white;
+}
+
+.card p {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.card a{
+    background-color: #f9004d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.card a:hover {
+    background-color: transparent;
+    border: 2px solid #f9004d;
 }
