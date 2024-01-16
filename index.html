@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;500&family=Mukta:wght@300;700&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;500&family=Mukta:wght@300;700&family=Poppins:wght@300;600&display=swap"
+        rel="stylesheet">
     <title>Lucas Isnardi</title>
 </head>
+
 <body>
-    <div class="caixa-principal">
+    <div class="caixa-principal" id="home">
         <nav>
             <h2 class="portfolio">Porfo<span>lio</span></h2>
             <ul>
-                <li><a>Home</a></li>
-                <li><a>Sobre</a></li>
-                <li><a>Projetos</a></li>
-                <li><a>Fale comigo</a></li>
+                <li><a class="link-menu" href="#home">Home</a></li>
+                <li><a class="link-menu" href="#sobre">Sobre</a></li>
+                <li><a class="link-menu" href="#projetos-id">Projetos</a></li>
+                <li><a class="link-menu" href="#fale-comigo">Fale comigo</a></li>
             </ul>
         </nav>
 
@@ -25,23 +29,51 @@
             <h1>Lucas<span>Isnardi</span></h1>
             <h3>Programador Front-end</h3>
         </div>
-    </div>   
-        <section>
-            <img src="./img/Lucas foto.jpg">
-            <div>
-                <h2>Sobre mim</h2>
-                <p>Sou Desenvolvedor Front-end, desenvolvo projetos com foco na melhoria de processos e solucionar problemas usando linhas de códigos.</p>
-                <button>Entre em contato</button>
-            </div>
-        </section>
-        <div class="projetos">
-            <h2>Principais Projetos</h2>
-        
+    </div>
+    <section id="sobre">
+        <img src="./img/Lucas foto.jpg">
+        <div>
+            <h2>Sobre mim</h2>
+            <p>Sou Desenvolvedor Front-end, desenvolvo projetos com foco na melhoria de processos e solucionar problemas
+                usando linhas de códigos.</p>
+            <button>Entre em contato</button>
+        </div>
+    </section>
+    <div class="projetos" id="projetos-id">
+        <h2>Principais Projetos</h2>
+
+        <div class="card-projetos">
             <div class="card">
                 <img src="img/logo.gif" alt="Logo do Projeto">
                 <h5>Conversor</h5>
-                <p>O intuito desse site foi trabalhar com a conversão das maiores moedas do Mundo. O real brasileiro convertido para Dólar, Euro e Libra.</p>
-                <a href="#">Ver Projeto</a>
+                <p>O intuito desse site foi trabalhar com a conversão das maiores moedas do Mundo.</p>
+                <a href="https://lucasisnardi.github.io/DEVCLUB-CONVERSOR/" target="_blank">Ver Projeto</a>
+            </div>
+            <div class="card">
+                <img src="img/gerador.png" alt="Logo do Projeto">
+                <h5>Gerador</h5>
+                <p>Aqui eu posso gerar senhas aleatórias e copiar e colar em qualquer lugar.</p>
+                <a href="https://lucasisnardi.github.io/Gerador/" target="_blank">Ver Projeto</a>
+            </div>
+            <div class="card">
+                <img src="img/To do lista.png" alt="Logo do Projeto">
+                <h5>ToDoList</h5>
+                <p>Criei um To do list para organizar e realizar tarefas diárias.</p>
+                <a href="https://lucasisnardi.github.io/TODO-LIST/" target="_blank">Ver Projeto</a>
             </div>
         </div>
-        
+
+    </div>
+    <footer id="fale-comigo">
+        <h5>Lucas Isnardi</h5>
+        <p>Para mais informações</p>
+
+        <div class="social">
+            <a href="https://api.whatsapp.com/send?phone=5511991469494" target="_blank"><img src="./img/telefone.png"></a>
+            <a href="https://www.linkedin.com/in/lucas-isnardi/" target="_blank"><img src="./img/LinkedIn.jpeg"></a>
+        </div>
+
+    </footer>
+</body>
+
+</html>
